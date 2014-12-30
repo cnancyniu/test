@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: LFT_Etica_Book;
+    src: url('fonts/LFT_Etica_Book.otf');
+
+    font-family: QuatroSlab_Regular;
+    src: url('QuatroSlab_Regular.otf');
+
+    font-family: LFT_Etica_Reg;
+    src: url('LFT_Etica_Reg.otf');  
+}
+
+body {
+    border: 5px;
+    max-width: 960px;
+    min-width: 300px;
+    background-color: #1a2325;
+    font-family: LFT_Etica_Book;
+    font-size: 16px;
+    color: #abadad; 
+    position: center;
+    margin:auto;
+    margin-top: 100px;
+    display:;
+}
+
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topline {
+    position:fixed;
+    left:0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-top: 2px solid #e85951;
+}
+
+.logo {
+    position: fixed;
+    top: 0px;
+    left: auto; 
+    z-index: 999999;
+}
+
+h1 {
+    font-family: Quatro Slab;
+    font-style: regular;
+    font-size: 36px;
+    color: #ffffff;
+    width: 300px;
+    line-height: 50px;
+    padding-top: 50px;
+    padding-bottom: -50px;
+}
+
+.subTitle {
+	font-family: LFT Etica;
+    font-style: book;
+    color: #555a5b;
+    margin-top: -20px;
+}
+
+.pic {
+    left: 100%;
+    top: 0px;
+    width: 50%;
+    float: right;
+    margin-top: -140px;
+    margin-left: 20px;
+}
+
+
+
+p {
+    font-family: LFT Etica;
+    font-style: regular;
+    border-right: 50px;
+    line-height: 25px;
+}
+
+.intro1 {   
+    width: 300px; 
+
+}
+
+.intro2 {
+    max-width: 300px; 
+}
+
+.checkout{
+	color:#01bfc1;
+    cursor: pointer;
+}
+
+.DottedLine{
+    width: 300px;
+    border-top: 1px dotted #31393b;
+}
+
+.price{
+    font-family: Quatro Slab;
+    font-size: 24px;
+    color:#ffffff;
+}
+
+.button{
+    position: relative;
+    top: -57px;
+    left: 55px;
+
+	text-transform: uppercase;
+    background-color: #01ccce;
+    color:#ffffff;
+    width: 120px;
+    height: 28px;
+    text-align: center;
+    padding: 8px 8px 3px 8px;
+
+    cursor: pointer;
+}
+
+.DottedLineLong{
+    width: 100%;
+    border-top: 1px dotted #31393b;
+    margin: 50px auto 50px auto;
+}
+
+@media screen and (max-width: 300px){
+    .pic{
+        float: left;
+        width: 280px;
+        display: inline-block;
+        left:0px;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .pic{
+        float: right;
+        width: 60%;
+    }
+
+  
+
+}
