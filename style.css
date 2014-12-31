@@ -11,38 +11,29 @@
 }
 
 body {
-    border: 5px;
     max-width: 960px;
-    min-width: 300px;
+    min-width: 100px;
     background-color: #1a2325;
     font-family: LFT_Etica_Book;
     font-size: 16px;
     color: #abadad; 
-    position: center;
-    margin:auto;
-    margin-top: 100px;
-    display:;
+    margin: 0 auto;
 }
 
-.main{
+header {
     width: 90%;
     margin: 0 auto;
 }
 
 .topline {
-    position:fixed;
-    left:0;
-    width: 100%;
-    position: fixed;
-    top: 0;
     border-top: 2px solid #e85951;
+    width: 200%;
+    margin-left: -500px;
 }
 
-.logo {
-    position: fixed;
-    top: 0px;
-    left: auto; 
-    z-index: 999999;
+.content {
+    width: 90%;
+    margin: 0 auto;   
 }
 
 h1 {
@@ -56,38 +47,28 @@ h1 {
     padding-bottom: -50px;
 }
 
-.subTitle {
+h2 {
 	font-family: LFT Etica;
     font-style: book;
+    font-size: 16px;
     color: #555a5b;
-    margin-top: -20px;
+    margin-top: -15px;
+    margin-bottom: 30px;
 }
 
 .pic {
-    left: 100%;
-    top: 0px;
     width: 50%;
-    float: right;
-    margin-top: -140px;
-    margin-left: 20px;
 }
-
-
 
 p {
     font-family: LFT Etica;
     font-style: regular;
-    border-right: 50px;
+    border-right: 30px;
     line-height: 25px;
 }
 
-.intro1 {   
-    width: 300px; 
-
-}
-
-.intro2 {
-    max-width: 300px; 
+.intro1, .intro2 {
+    width: 300px;
 }
 
 .checkout{
@@ -126,22 +107,38 @@ p {
     width: 100%;
     border-top: 1px dotted #31393b;
     margin: 50px auto 50px auto;
+    display: block;
 }
 
-@media screen and (max-width: 300px){
-    .pic{
+@media screen and (max-width: 600px){
+    .pic {
         float: left;
-        width: 280px;
-        display: inline-block;
-        left:0px;
+        width: 100%;
+        display: block; 
+        margin-top: 30px; 
+        margin-bottom: 50px; 
+    }
+
+    .intro1, .intro2 {
+        width: 100%;
+    } 
+
+    .DottedLineLong{
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 960px){
-    .pic{
-        float: right;
+@media screen and (min-width: 700px){
+    .pic {
         width: 60%;
+        float: right;
+        margin-left: 50px;
+        margin-top: -145px;
     }
+    .intro1, .intro2 {
+        width: 100%;
+    } 
+
 
   
 
