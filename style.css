@@ -29,20 +29,14 @@ body {
     margin: 0 auto;
 }
 
-.topline {
-    position:fixed;
-    left:0;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    border-top: 2px solid #e85951;
+.logo {
+    width:100%;
+    margin: 0 auto;
 }
 
-.logo {
-    position: fixed;
-    top: 0px;
-    left: auto; 
-    z-index: 999999;
+.topline {
+    width:100%;
+    border-top: 2px solid #e85951;
 }
 
 h1 {
