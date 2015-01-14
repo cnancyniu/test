@@ -11,8 +11,7 @@
 }
 
 body {
-    max-width: 960px;
-    min-width: 100px;
+    
     background-color: #1a2325;
     font-family: LFT_Etica_Book;
     font-size: 16px;
@@ -20,19 +19,19 @@ body {
     margin: 0 auto;
 }
 
-header {
-    width: 90%;
+.logo {
+    width:100%;
     margin: 0 auto;
 }
 
 .topline {
+    width:100%;
     border-top: 2px solid #e85951;
-    width: 200%;
-    margin-left: -500px;
 }
 
-.content {
-    width: 90%;
+.main {
+    max-width: 940px;
+    width: 85%;
     margin: 0 auto;   
 }
 
@@ -58,6 +57,7 @@ h2 {
 
 .pic {
     width: 50%;
+    margin-bottom: 50px;
 }
 
 p {
@@ -69,6 +69,7 @@ p {
 
 .intro1, .intro2 {
     width: 300px;
+    text-indent: 50px;
 }
 
 .checkout{
@@ -108,6 +109,7 @@ p {
     border-top: 1px dotted #31393b;
     margin: 50px auto 50px auto;
     display: block;
+    clear: both;
 }
 
 @media screen and (max-width: 600px){
