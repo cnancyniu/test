@@ -64,12 +64,8 @@ h1 {
 }
 
 .pic {
-    left: 100%;
-    top: 0px;
     width: 50%;
-    float: right;
-    margin-top: -140px;
-    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -128,21 +124,31 @@ p {
     margin: 50px auto 50px auto;
 }
 
-@media screen and (max-width: 300px){
-    .pic{
+@media screen and (max-width: 600px){
+    .pic {
         float: left;
-        width: 280px;
-        display: inline-block;
-        left:0px;
+        width: 100%;
+        display: block; 
+        margin-top: 30px; 
+        margin-bottom: 50px; 
+    }
+
+    .intro1, .intro2 {
+        width: 100%;
+    } 
+
+    .DottedLineLong{
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 960px){
-    .pic{
-        float: right;
+@media screen and (min-width: 700px){
+    .pic {
         width: 60%;
+        float: right;
+        margin-left: 50px;
+        margin-top: -145px;
     }
-
-  
-
-}
+    .intro1, .intro2 {
+        width: 100%;
+    } 
