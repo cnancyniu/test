@@ -11,28 +11,38 @@
 }
 
 body {
-    
+    border: 5px;
+    max-width: 960px;
+    min-width: 300px;
     background-color: #1a2325;
     font-family: LFT_Etica_Book;
     font-size: 16px;
     color: #abadad; 
-    margin: 0 auto;
+    position: center;
+    margin:auto;
+    margin-top: 100px;
+    display:;
 }
 
-.logo {
-    width:100%;
+.main{
+    width: 90%;
     margin: 0 auto;
 }
 
 .topline {
-    width:100%;
+    position:fixed;
+    left:0;
+    width: 100%;
+    position: fixed;
+    top: 0;
     border-top: 2px solid #e85951;
 }
 
-.main {
-    max-width: 940px;
-    width: 85%;
-    margin: 0 auto;   
+.logo {
+    position: fixed;
+    top: 0px;
+    left: auto; 
+    z-index: 999999;
 }
 
 h1 {
@@ -46,34 +56,42 @@ h1 {
     padding-bottom: -50px;
 }
 
-h2 {
-	font-family: LFT Etica;
+.subTitle {
+    font-family: LFT Etica;
     font-style: book;
-    font-size: 16px;
     color: #555a5b;
-    margin-top: -15px;
-    margin-bottom: 30px;
+    margin-top: -20px;
 }
 
 .pic {
+    left: 100%;
+    top: 0px;
     width: 50%;
-    margin-bottom: 50px;
+    float: right;
+    margin-top: -140px;
+    margin-left: 20px;
 }
+
+
 
 p {
     font-family: LFT Etica;
     font-style: regular;
-    border-right: 30px;
+    border-right: 50px;
     line-height: 25px;
 }
 
-.intro1, .intro2 {
-    width: 300px;
-    text-indent: 50px;
+.intro1 {   
+    width: 300px; 
+
+}
+
+.intro2 {
+    max-width: 300px; 
 }
 
 .checkout{
-	color:#01bfc1;
+    color:#01bfc1;
     cursor: pointer;
 }
 
@@ -93,7 +111,7 @@ p {
     top: -57px;
     left: 55px;
 
-	text-transform: uppercase;
+    text-transform: uppercase;
     background-color: #01ccce;
     color:#ffffff;
     width: 120px;
@@ -108,39 +126,22 @@ p {
     width: 100%;
     border-top: 1px dotted #31393b;
     margin: 50px auto 50px auto;
-    display: block;
-    clear: both;
 }
 
-@media screen and (max-width: 600px){
-    .pic {
+@media screen and (max-width: 300px){
+    .pic{
         float: left;
-        width: 100%;
-        display: block; 
-        margin-top: 30px; 
-        margin-bottom: 50px; 
-    }
-
-    .intro1, .intro2 {
-        width: 100%;
-    } 
-
-    .DottedLineLong{
-        width: 100%;
+        width: 280px;
+        display: inline-block;
+        left:0px;
     }
 }
 
-@media screen and (min-width: 700px){
-    .pic {
-        width: 60%;
+@media screen and (min-width: 960px){
+    .pic{
         float: right;
-        margin-left: 50px;
-        margin-top: -145px;
+        width: 60%;
     }
-    .intro1, .intro2 {
-        width: 100%;
-    } 
-
 
   
 
