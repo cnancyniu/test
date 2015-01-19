@@ -77,13 +77,9 @@ p {
     line-height: 25px;
 }
 
-.intro1 {   
-    width: 300px; 
-
-}
-
-.intro2 {
-    max-width: 300px; 
+.intro1, .intro2 {
+    width: 300px;
+    text-indent: 50px;
 }
 
 .checkout{
