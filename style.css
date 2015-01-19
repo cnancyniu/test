@@ -12,37 +12,33 @@
 
 body {
     border: 5px;
-    max-width: 960px;
-    min-width: 300px;
+
     background-color: #1a2325;
     font-family: LFT_Etica_Book;
     font-size: 16px;
     color: #abadad; 
     position: center;
-    margin:auto;
-    margin-top: 100px;
-    display:;
+    margin:0 auto;
 }
 
 .main{
+    max-width: 960px;
+    min-width: 300px;
     width: 90%;
     margin: 0 auto;
 }
 
 .topline {
-    position:fixed;
     left:0;
     width: 100%;
-    position: fixed;
     top: 0;
     border-top: 2px solid #e85951;
 }
 
-.logo {
-    position: fixed;
-    top: 0px;
-    left: auto; 
-    z-index: 999999;
+.logo-wrap {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1 {
